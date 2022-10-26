@@ -1,0 +1,99 @@
+*  {
+    box-sizing: border-box;
+}
+body   {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 12px;
+}
+.topcmpnt  {
+    position: relative;
+    max-width: 100%;
+}
+a  {
+    text-decoration: none;
+    color: white;
+    margin-top: 26px;
+    margin-left: 40px;
+}
+.toplinks  {
+    top: 8px;
+    left: 16px;
+    position: absolute;
+    display: flex;
+}
+.topcmpnt   {
+    display: flex;
+    max-width: 100%;
+}
+.secondcmp   {
+    width: 35%;
+    padding: 63px;
+}
+.aboutfnt   {
+    width: 40%;
+    padding: 58px;
+}
+.bottpncmpnt  {
+    display: flex;
+    max-width: 100%;
+    margin-top: -3px;
+
+}
+.firstcmp {
+    width: 65%;
+}
+.image22 {
+   width: 30%;
+}
+.image1   {
+    width: 100%;
+    height: auto;
+}
+.toplinks > h1 {
+    color: white;
+}
+.image32 {
+    width: 30%;
+ }
+ .secondcmp > h1  {
+    font-size: 49px;
+    font-weight: 900;
+ }
+ .secondcmp > p  {
+    color: hsl(0, 0%, 63%);
+ }
+ .aboutfnt > p  {
+    font-weight: 900;
+    color: hsl(0, 0%, 63%);
+ }
+ a:hover  {
+    color: black;
+    text-decoration: dashed;
+ }
+ .shopnow  {
+    display: flex;
+ }
+ @media only screen and (max-width: 700px) {
+    div.firstcmp, .secondcmp {
+      width: 100%;
+      height: auto;
+    }
+    .topcmpnt {
+        flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    div.bottpncmpnt, .aboutfnt, .image22, .image32{
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    div.bottpncmpnt, .aboutfnt, .image22, .image32{
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+  }
+  
